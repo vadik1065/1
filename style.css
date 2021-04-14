@@ -1,0 +1,342 @@
+body{
+ background-color: #f8f8f3;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ min-height: 95vh;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+a{
+  color: #f8f8f3;
+ }
+
+a:hover{
+ text-decoration: none;
+}
+
+.container{
+ width:450px;
+ background-color: rgba(230, 47, 47, 0.301);
+ text-align: center;
+ box-shadow: 0 -5px 0 #94090d;
+ margin-top:60px;
+
+}
+.container img{
+ width:120px;
+ height:120px;
+ margin: -60px 0 30px 0;
+ border: 5px solid #550305;
+ border-radius: 50%;
+ box-shadow: 0 -5px 0 #94090d;
+}
+
+input:not(input[value="Отправить"]){
+ width: 300px;
+ height:50px;
+ font-size: 18px;
+ margin-bottom: 25px;
+ border-radius: 4px;
+ padding-left: 40px;
+}
+
+.dws-input input:hover{
+ box-shadow: 0 0 6px 3px rgba(253, 58, 58, 0.35);
+}
+
+.dws-submit {
+ padding: 13px 30px;
+ margin: 5px 0 20px 0;
+ font-size: 15px;
+ color: #f8f8f3;
+ background-color: #94090d;
+ border: none;
+ border-bottom: 4px solid #94090d;
+ cursor: pointer;
+}
+ .dws-submit:hover{
+ transition: all 0.5s;
+ background: #f8f8f3;
+ color: #94090d;
+}
+
+
+
+h1{
+    margin-top: 50px;
+    font-size: 72px;
+    color: #94090d;
+    display: inline-block;
+}
+
+h1:hover{
+    color:#94090ea6;
+}
+
+td,
+th{
+    text-align: center;
+    padding: 3px 7px;
+}
+
+.error{
+    box-shadow: 0 0 10px rgb(255, 32, 32);;
+}
+
+
+
+
+
+
+
+
+
+
+  
+  a {
+    position: relative;
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .effect-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+  .effect-2 {
+      position: absolute;
+      top: 0;
+      right: 0;
+  }
+ 
+  .effect {
+      margin-bottom: 40px;
+    margin: auto;
+    padding: 5px 0;
+    width: 240px;
+    background-color: rgba(230, 47, 47, 0.486);
+    text-align: center;
+  }
+
+  .effect a {
+    padding: 0 20px;
+    height: 45px;
+    color: #f8f8f3;
+    text-shadow: 1px 1px 2px black, 0 0 1em red; ;
+    font-weight: 300;
+    line-height: 45px;
+  }
+  
+  .effect a:hover {
+    transition: all 0.5s;
+      color: #94090d;
+      text-shadow: 1px 1px 2px black, 0 0 1em red;
+  }
+  
+  .effect a::before,
+  .effect a::after {
+    position: absolute;
+    width: 45px;
+    height: 2px;
+    background-color: #ffffff;
+    content: "";
+    opacity: 0.2;
+    transition: all 0.3s;
+  }
+  
+  .effect a::before {
+    top: 0;
+    left: 0;
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+  }
+  
+  .effect a::after {
+    right: 0;
+    bottom: 0;
+    transform: rotate(90deg);
+    transform-origin: 100% 100%;
+  }
+  
+  .effect a:hover::before,
+  .effect a:hover::after {
+    opacity: 1;
+  }
+  
+  .effect a:hover::before {
+    left: 50%;
+    transform: rotate(0deg) translateX(-50%);
+  }
+  
+  .effect a:hover::after {
+    right: 50%;
+    transform: rotate(0deg) translateX(50%);
+  }
+
+
+
+
+
+
+
+
+
+section.new,
+.news,
+.home{
+    margin: 50px 0;
+    padding: 0 20px;
+
+}
+
+section.new img{
+    width: 400px;
+    height: 280px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+section.new img:hover{
+    opacity: 1;
+
+}
+
+section.new{
+    display: flex;
+    flex-direction: row;
+}
+
+section.new  article{
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+
+
+
+.home section.new  img{
+    width: 300px;
+    height: 210px;
+}
+
+.home section.new  button{
+    padding: 6px 10px;
+    font-size: 22px;
+    background-image: radial-gradient(  #be1116, #dfa6a8);
+    color: floralwhite;
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.home section.new  button:hover{
+    font-size: 23px;
+    background-image: radial-gradient(  #dfa6a8, #be1116);
+    color: floralwhite;
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
+    cursor: pointer;
+}
+
+.next{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-image: url("../img/next.png");
+    background-position:center;
+    background-size: cover;
+    position: absolute;
+    top:  60px;
+    right: 0px;
+}
+
+h3{
+    margin-bottom: 60px;
+}
+
+
+
+
+
+  @media screen and (max-width: 992px) {
+       .container{
+        width:100vw;
+       
+       }
+       .container img{
+        width:20vw;
+        height:20vw;
+       }
+       
+       input:not(input[value="Отправить"]){
+        width: 70vw;
+        height:100px;
+        font-size: 3vw;
+       }
+      
+       input[value="Отправить"]{
+        width: 40vw;
+        height:80px;
+        font-size: 3vw;
+       }
+
+       td,
+       th{
+           text-align: center;
+           padding: 6px 15px;
+           font-size: 3vw;
+       }  
+            
+        a {
+            font-size: 5vw;
+        }
+        
+        .effect {
+            width: 35vw;
+        }
+        
+        .effect a {
+            padding: 1vh 0;
+            height: 3vh;
+            line-height: 3vh;
+        }
+
+        section.new{
+            flex-direction: column;
+        }
+       
+        section.new img{
+            margin: 15px auto;
+        }
+
+        .home section.new  button{
+            display: block;
+            margin: 10px auto;
+            font-size: 5vw;
+            background-color: floralwhite;
+        }
+
+    }
+    
+} 
+
+
+@font-face {
+    font-weight: 300;
+    font-family: "Open Sans";
+    src: url("fonts/opensanslight.woff") format("woff");
+  }

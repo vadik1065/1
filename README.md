@@ -1,1 +1,1 @@
-ссылка на  первое  второе задание  http://demismailr.temp.swtest.ru
+ссылка на первое и второе задание http://demismailr.temp.swtest.ru
